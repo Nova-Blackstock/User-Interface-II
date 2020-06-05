@@ -1,1 +1,133 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    box-sizing:border-box;
+  padding:0;
+  margin:0;
+  max-width:100%;
+  
+  
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+
+.links {
+    display: flex;
+    justify-content: center;
+}
+.home{
+    border: 1px solid red;
+    text-align: center;
+    width: 7%;
+    padding: 5px;
+}
+.about{
+    border: 1px solid red;
+    text-align: center;
+    width: 7%;
+    padding: 5px;
+}
+.contact{
+    border: 1px solid red;
+    text-align: center;
+    width: 7%;
+    padding: 5px;
+}
+.projects{
+    border: 1px solid red;
+    text-align: center;
+    width: 7%;
+    padding: 5px;
+}
+
+.subtitle{
+    display: flex;
+    justify-content: center;
+}
+.subtext{
+    display: flex;
+    justify-content: center;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+.picc{
+    width: 100%;
+}
+
+
+
+.flexpractice{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    justify-content: space-around;
+    
+}
+.description{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    order: -1;
+    font-size: 22px;
+}
+
+.flat{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.song{
+    width: 18%;
+}
+
+.song2{
+    width: 18%;
+}
+
+.song3{
+    width: 18%;
+}
+
+.song4{
+    width: 18%;
+}
+footer{
+    background: red;
+}
+
+.contactme{
+    display: flex;
+    justify-content: center;
+}
+
+.contactlink{
+    display: flex;
+    justify-content: center;
+    background: black;
+    width: 15%;
+    padding: 15px;
+    border-radius: 10px;
+}
