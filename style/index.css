@@ -21,11 +21,24 @@ time, mark, audio, video {
   
 }
 
+
+
 h1{
     display: flex;
     justify-content: center;
 }
-
+h2{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    display: flex;
+    justify-content: center;
+}
+h4{
+    display: flex;
+    justify-content: center;
+}
 
 .links {
     display: flex;
@@ -36,24 +49,28 @@ h1{
     text-align: center;
     width: 7%;
     padding: 5px;
+    border-radius: 10px
 }
 .about{
     border: 1px solid red;
     text-align: center;
     width: 7%;
     padding: 5px;
+    border-radius: 10px
 }
 .contact{
     border: 1px solid red;
     text-align: center;
     width: 7%;
     padding: 5px;
+    border-radius: 10px
 }
 .projects{
     border: 1px solid red;
     text-align: center;
     width: 7%;
     padding: 5px;
+    border-radius: 10px
 }
 
 .subtitle{
@@ -63,6 +80,7 @@ h1{
 .subtext{
     display: flex;
     justify-content: center;
+    font-size: 1.2rem;
 }
 
 .image{
@@ -89,6 +107,7 @@ h1{
     width: 20%;
     order: -1;
     font-size: 22px;
+    text-align: center;
 }
 
 .flat{
@@ -127,7 +146,105 @@ footer{
     display: flex;
     justify-content: center;
     background: black;
-    width: 15%;
+    width: 10%;
     padding: 15px;
     border-radius: 10px;
+}
+footer nav a{
+    font-size: 1.5rem;
+    color: white;
+}
+
+.subtext h4{
+    width: 80%;
+}
+
+@media(prefers-reduced-motion: reduce){
+    background{
+        display: none;
+    }
+}
+
+@media(max-width: 800px){
+    h1{
+        font-size: 6rem;
+    }
+    .links{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    .home, .about, .contact, .projects{
+        width: 30%;
+        border-radius: 0px;
+        justify-content: center;
+        margin: 1%;
+        
+    }
+    nav a{
+        text-decoration: none;
+        font-size: 2.3rem;
+    }
+    .subtitle h2{
+        font-size: 3rem;
+    }
+    .subtext h4{
+        width: 70%;
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    .picc{
+        width: 85%;
+    }
+    .flexpractice{
+        flex-wrap: wrap;
+    }
+    .description{
+        width: 85%;
+        order: 1;
+        text-align: center;
+        margin: 5%;
+    }
+    .flat{
+        flex-wrap: wrap;
+        width: 89.4%;
+       
+    }
+    .song, .song2, .song3, .song4{
+        width: 45%;
+        margin: 1%;
+    }
+    .contactlink{
+        width: 20%;
+    }
+  
+}
+
+@media(max-width: 500px){
+    body {
+
+        background: url("https://media3.giphy.com/media/3oEhmP1i8wzdgx2vrW/source.gif");
+            background-size: 30000px 1000px;
+            background-position: center;
+        }
+    h1{
+        text-align: center;
+        color: white;
+    }
+    h2{
+        color: aqua;
+    }
+    h4{
+        color: white;
+    }
+    nav a{
+        color: white;
+    }
+    .contactlink{
+        width: 35%;
+    }
+    .description{
+        color: rgb(250, 227, 219);
+    }
 }
